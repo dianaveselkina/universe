@@ -15,14 +15,35 @@ h4,
 h5 {
   color: var(--color2);
 }
-header {
-  padding: 43px 120px;
+.nav {
+  justify-content: flex-end;
 }
-.hero {
-  padding: 200px 120px;
+.hero-container {
+  padding: 138px 122px 0;
 }
-.project {
-  padding: 200px 120px;
+.hero-img {
+  display: block;
+  max-width: 636px;
+}
+.price-block {
+  color: var(--color2);
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.price-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-num {
+  font-size: 24px;
+}
+.btn-block {
+  padding-bottom: 40px;
+}
+.project-container {
+  padding: 0 122px 186px;
 }
 .card {
   max-width: 374px;
@@ -43,4 +64,7 @@ header {
 .btn-border {
   border: 1px solid #d10ed1;
   color: var(--color2);
+}
+.slider-container {
+  padding-bottom: 224px;
 }
