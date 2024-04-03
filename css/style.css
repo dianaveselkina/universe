@@ -1,6 +1,12 @@
 :root {
   --color1: #000000;
   --color2: #ffffff;
+  --color3: #090823;
+}
+.container {
+  max-width: 1440px;
+  background: var(--color1);
+  padding: 0 122px;
 }
 h1,
 h2,
@@ -10,14 +16,31 @@ h5 {
   color: var(--color2);
 }
 header {
-  background: var(--color1);
   padding: 43px 120px;
 }
 .hero {
-  background: var(--color1);
   padding: 200px 120px;
 }
 .project {
-  background: var(--color1);
   padding: 200px 120px;
+}
+.card {
+  max-width: 374px;
+  background: #090823;
+  padding: 18px 20px 37px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.btn-block {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+.btn-gradient {
+  color: var(--color2);
+  background: linear-gradient(to right, #d10ed1 0%, #10a3da 100%);
+}
+.btn-border {
+  border: 1px solid #d10ed1;
+  color: var(--color2);
 }
