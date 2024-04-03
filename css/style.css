@@ -68,3 +68,6 @@ h5 {
 .slider-container {
   padding-bottom: 224px;
 }
+.footer-container {
+  background: var(--color3);
+}
