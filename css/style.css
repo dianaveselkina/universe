@@ -1,0 +1,23 @@
+:root {
+  --color1: #000000;
+  --color2: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color2);
+}
+header {
+  background: var(--color1);
+  padding: 43px 120px;
+}
+.hero {
+  background: var(--color1);
+  padding: 200px 120px;
+}
+.project {
+  background: var(--color1);
+  padding: 200px 120px;
+}
