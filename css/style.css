@@ -70,4 +70,15 @@ h5 {
 }
 .footer-container {
   background: var(--color3);
+  padding: 104px 122px 126px;
+}
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo {
+  padding-bottom: 30px;
+}
+.footer-contact {
+  padding: 24px 0;
 }
